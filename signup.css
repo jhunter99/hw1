@@ -1,0 +1,52 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 2px solid blue;
+    height: max-content;
+    width: 350px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.3em;
+}
+
+#error {
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#error.hidden {
+    display:none;
+}
+
+.errore_p {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.errore_p div {
+    width: 190px;
+    color: red;
+}
+
+div.buttons {
+    text-align: center;
+}
+
+div.success {
+    font-weight: bold;
+}
